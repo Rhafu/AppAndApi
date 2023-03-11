@@ -23,7 +23,7 @@ if(isset($_GET['option'])){
     $data['status'] = 'ERROR';
 }
 
-
+//verificandos se estou na branch otimizandoApi
 //emitindo resposta
 response($data);
 
