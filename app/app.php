@@ -3,7 +3,7 @@
 define('API_BASE', 'http://localhost/estudos/apis/api/index.php?option=');
 
 for($i = 0; $i < 10; $i++){
-    $resultado = api_request('random&min=2000&max=200');
+    $resultado = api_request('random&min=200&max=2000');
     //verify if response is success
     if($resultado['status'] == 'ERROR'){
     die('Aconteceu um erro na minha Request');
